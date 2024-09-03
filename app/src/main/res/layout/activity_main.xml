@@ -10,13 +10,19 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:hint="Enter the message"
         android:id="@+id/edt"
         android:background="@drawable/edt"
         />
         <TextView
+            android:background="@drawable/edt"
+            android:hint="This is for text"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:id="@+id/txt"
@@ -41,7 +47,7 @@
         android:layout_height="wrap_content"
         android:text="RECEIVE"
         android:textStyle="bold"
-        android:layout_marginStart="150dp"
+        android:layout_marginStart="130dp"
         android:gravity="bottom"
         android:layout_marginTop="400dp"/>
 </LinearLayout>
